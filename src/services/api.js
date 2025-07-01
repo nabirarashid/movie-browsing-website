@@ -1,4 +1,4 @@
-const API_KEY = "8316fd578c3a0a9e32c925afbf2ae68c";
+const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 const BASE_URL = "https://api.themoviedb.org/3";
 
 // basically wait for the fetch to finish and then return the data
